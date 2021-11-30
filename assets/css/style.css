@@ -1,0 +1,287 @@
+#title {
+	font-family: 'Gill Sans';
+	font-size: 30px;
+	text-align: center;
+	margin: 30px;
+	margin-bottom: 20px;
+	letter-spacing: 3px;
+	font-weight: 400;
+	color: black;
+}
+
+body {
+	background-color: #f9f9f2;
+	background-position: center;
+}
+
+#cup {
+	height: 600px;
+	position:absolute;
+	padding-left: 18%;
+	padding-bottom: 80%;
+}
+
+#selection-container {
+	position: relative;
+	text-align: center;
+	top: 30px;
+	padding: 10px;
+}
+
+#topping-container {
+	position: relative;
+	text-align: center;
+	top: 30px;
+	right: 24px;
+	padding: 10px;
+}
+
+.tea {
+	height: 400px;
+	position: relative;
+	left: 250px;
+	top: 80px;
+}
+
+#mango{
+	position:absolute;
+	top: 143px;
+	display:none;
+}
+#oolong{
+	position:absolute;
+	top: 143px;
+	display:none;
+}
+#matcha{
+	position:absolute;
+	top: 143px;
+	display:none;
+}
+#strawberry{
+	position:absolute;
+	top: 143px;
+	display:none;
+}
+
+.topping {
+	position: relative;
+}
+
+#boba {
+	height: 240px;
+	position: absolute;
+	left: 330px;
+	top: 250px;
+	display:none;
+
+}
+
+#coconut {
+	position:absolute;
+	height: 220px;
+	left: 315px;
+	top: 290px;
+	display:none;
+}
+
+#aloe {
+	position:absolute;
+	opacity: 80%;
+	height: 240px;
+	left: 315px;
+	top: 260px;
+	display:none;
+}
+
+#cheesefoam {
+	position:absolute;
+	height: 75px;
+	top: 90px;
+	left: 270px;
+	display:none;
+}
+
+#instructions {
+	position: absolute;
+	margin-left: 55%;
+	margin-bottom: 30%;
+	font-family: 'Gill Sans';
+	line-height: 134px;
+}
+
+.button {
+	position: relative;
+	margin-left: 60%;
+	margin-bottom: 10%;
+}
+
+#base-button {
+	position: relative;
+	top: 56px;
+	right: 50px;
+}
+
+#mangob {
+	height: 80px;
+}
+#mangob:hover{
+	opacity: 70%;
+}
+#oolongb {
+	height: 80px;
+}
+#oolongb:hover {
+	opacity: 70%;
+}
+#matchab {
+	height: 80px;
+}
+#matchab:hover {
+	opacity: 70%;
+}
+#strawberryb {
+	height: 80px;
+}
+#strawberryb:hover {
+	opacity: 70%;
+}
+
+
+
+#sweet-button {
+	position: relative;
+	bottom: 2px;
+	right: 50px;
+}
+
+#zero {
+	height: 80px;
+}
+
+#zero:hover{
+	opacity: 70%;
+}
+
+#twentyfive {
+	height: 80px;
+}
+
+#twentyfive:hover{
+	opacity: 70%;
+}
+
+#seventyfive {
+	height: 80px;
+}
+#seventyfive:hover{
+	opacity: 70%;
+}
+#hundred {
+	height: 80px;
+}
+#hundred:hover{
+	opacity: 70%;
+}
+
+#topping-button {
+	position: relative;
+	bottom: 60px;
+	right: 50px;
+}
+
+#bobab {
+	height: 80px;
+}
+
+#bobab:hover{
+	opacity: 70%;
+}
+
+#coconutb {
+	height: 80px;
+}
+#coconutb:hover{
+	opacity: 70%;
+}
+
+#aloeb {
+	height: 80px;
+}
+#aloeb:hover{
+	opacity: 70%;
+}
+
+#cheesefoamb {
+	height: 80px;
+}
+#cheesefoamb:hover{
+	opacity: 70%;
+}
+
+#clearb {
+	position: absolute;
+	height: 40px;
+	bottom: 45px;
+	left: 40px;
+}
+
+#clearb:hover {
+	opacity: 70%;
+}
+
+.topping { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+#about {
+	position: absolute;
+	height: 400px;
+	margin-left: 20%;
+	bottom: 30px;
+	display: block;
+}
+
+#xb {
+	position: absolute;
+	height: 30px;
+	margin-left: 24%;
+	bottom: 805px;
+	display: none;
+}
+
+#aboutb {
+	position: absolute;
+	height: 30px;
+	bottom: 540px;
+	right: 1155px;
+}
+
+#aboutb:hover {
+	opacity: 70%;
+}
+
+#xb:hover {
+	opacity: 70%;
+}
+
+#bobacal:hover {
+	opacity: 70%;
+}
+
+#bobacal {
+	position: absolute;
+	height: 30px;
+	bottom: 500px;
+	margin-left: 2%;
+}
+

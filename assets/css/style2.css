@@ -1,0 +1,21 @@
+
+body {
+	background-color: #f9f9f2;
+	background-position: center;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10%;
+	width: 50%;
+  }
+
+.x {
+	display: block;
+	position: relative;
+	top: 10px;
+	margin-left: 820px;
+	height: 40px;
+}
